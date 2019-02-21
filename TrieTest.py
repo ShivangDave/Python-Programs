@@ -8,5 +8,3 @@ root.add(root,'hal')
 print(root.findPrefix(root,'hack'))
 print(root.findPrefix(root,'ha'))
 print(root.findPrefix(root,'hammer'))
-
-print(root.children)
