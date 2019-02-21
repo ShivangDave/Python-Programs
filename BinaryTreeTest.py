@@ -1,4 +1,4 @@
-from Tree import Node
+from BinaryTree import Node
 
 root = Node(10)
 root.insert(5)
