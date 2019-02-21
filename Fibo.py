@@ -10,8 +10,6 @@ class fibonacci:
         else:
             if len(self.memo)<=number:
                 self.memo.insert(number,self.fib(number-1)+self.fib(number-2))
-            else:
-                self.memo[number] = self.fib(number-1)+self.fib(number-2)
         return self.memo[number]
 
 if __name__ == '__main__':
